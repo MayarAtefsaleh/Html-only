@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is a pet supplies store">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+
+
+    <style>
+
+        body{
+            background-color: antiquewhite;
+        }
+
+        #formdiv{
+            text-align: center;
+            background-color: blueviolet;
+            
+        }
+       
+    </style>
+
+</head>
+<body>
+    
+
+    <header style="text-align: center;background-color: rgb(163, 128, 240);height: 50px;">
+        <h1>Registeration Form</h1>
+    </header>
+
+    <h1 style="font-size: 30px;">
+        Form submission
+    </h1>
+    <div id="formdiv">
+    <form>
+        <br>
+        <div id="form">
+            <label for="name">Name</label>
+            <input type="text" id="name"  style="width: 40%;"/>
+        </div>
+        <br>
+        <div id="form">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" style="width: 40%;"/>
+        </div>
+        <br>
+        <div id="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" style="width: 40%;"/>
+        </div>
+        <br>
+        <div id="form">
+            <label for="password">Password</label>
+            <input type="password" id="password" style="width: 40%;"/>
+        </div>
+        <br>
+
+        <label for="gender">Choose your Gender:</label>
+        <select name="gender" id="gender" >
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type="submit" style="width: 25%;" > 
+        <input type="reset" style="width: 25%;">
+        <br>
+        <br>
+    </form>
+</div>
+</body>
+</html>

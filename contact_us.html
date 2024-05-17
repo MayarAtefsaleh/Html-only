@@ -90,24 +90,36 @@
             </div>
             <br>
             <div id="form">
-                <input type="text" id="txt" style="width: 500px;height: 200px;" placeholder="leave your message here" />
+                <label for="sub">Subject</label>
+                <input type="text" id="txt"/>
             </div>
             <br>
             <div id="form">
-                <input type="checkbox" id="txt"  placeholder="leave your message here" /> html
-                <input type="checkbox" id="txt" placeholder="leave your message here" /> css
+                <label for="summary">Summary</label> <br> <br>
+                <input type="text" id="summary" style="width: 500px;height: 200px;" placeholder="leave your message here" />
             </div>
             <br>
             <div id="form">
-                <input type="radio" id="txt" placeholder="leave your message here" runat="server" /> laravel
+                <label for="diploma">Choose  diploma :</label>
+                <br><br>
+                <input type="radio" id="txt" name="diploma" placeholder="leave your message here" /> html <br>
+                <input type="radio" id="txt" name="diploma" placeholder="leave your message here" /> css <br>
+                <input type="radio" id="txt" name="diploma" placeholder="leave your message here" /> js <br>
+                <input type="radio" id="txt" name="diploma" placeholder="leave your message here" /> php <br>
             </div>
             <br>
             <div id="form">
-                <input type="date" id="txt" placeholder="leave your message here" runat="server" />
+                <input type="checkbox" id="txt" placeholder="leave your message here" runat="server" /> Accept rules
+                <input type="checkbox" id="txt" placeholder="leave your message here" runat="server" /> Yes , i know
+            </div>
+            <br>
+            <div id="form">
+                <label for="date">Birth date</label>
+                <input type="date" id="date" />
             </div>
             <br>
             <input type="submit" value="send" />
-            <input type="reset" value="send" />
+            <input type="reset" value="reset" />
             <br> <br>
         </form>
 
