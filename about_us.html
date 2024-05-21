@@ -10,40 +10,61 @@
     <style>
         body {
             background-color: beige;
-    
+
             #d1 {
                 background-color: antiquewhite;
             }
-    
+
             #d2 {
                 background-color: pink;
             }
-    
+
             #d3 {
                 background-color: plum;
             }
-    
+
             #d4 {
                 background-color: powderblue;
             }
-    
+
             div {
                 height: 900px;
             }
-    
+
             img {
-    
+
                 height: 500px;
                 width: 700px;
             }
-    
-           
-    
+
+
+
             p {
                 font-size: 20px;
-    
+
             }
-    
+
+             .nav{
+                padding-top: 30px;
+                margin-left: 100px;
+                
+            }
+         .head{
+            float: left;
+            padding-left: 10px;
+            list-style: none;
+          }
+          a{
+           text-decoration: none;
+           padding: 10px 10px 10px 10px;
+          }
+
+          .ss2{
+            padding-top: 20px;
+            padding-left: 20px;
+            list-style: none;
+          }
+
         }
     </style>
 </head>
@@ -55,12 +76,21 @@
     </header>
 
     <nav style="background-color:blueviolet;width:100%; height:100px;">
-        <br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="index.html" style="font-size: 25px;">Home</a>&nbsp;&nbsp;&nbsp;
-        <a href="about_us.html" style="font-size: 25px;">About Us</a>&nbsp;&nbsp;&nbsp;
-        <a href="contact_us.html" style="font-size: 25px;">Contact Us</a>&nbsp;&nbsp;&nbsp;
-        <a href="our_vision.html" style="font-size: 25px;">Our Vision</a>
+        <ul class="nav">
+            <li class="head"><a href="index.html" style="font-size: 25px;">Home</a></li>
+            <li class="head"><a href="about_us.html" style="font-size: 25px;">About Us</a></li>
+            <li class="head"><a href="contact_us.html" style="font-size: 25px;">Contact Us</a></li>
+            <li class="head"><a href="our_vision.html" style="font-size: 25px;">Our Vision</a></li>
+        </ul>
+    </nav>
+
+    <nav style="background-color:blueviolet;width:200px; height:400px;">
+        <ul class="ss2">
+            <li class="ss"><a href="index.html" style="font-size: 25px;">Home</a></li>
+            <li class="ss"><a href="about_us.html" style="font-size: 25px;">About Us</a></li>
+            <li class="ss"><a href="contact_us.html" style="font-size: 25px;">Contact Us</a></li>
+            <li class="ss"><a href="our_vision.html" style="font-size: 25px;">Our Vision</a></li>
+        </ul>
     </nav>
 
     <main>
@@ -112,7 +142,7 @@
                 <source src="cat-meow-14536 (2).mp3" type="audio/mpeg">
             </audio>
         </div>
-        
+
         <div id="d2">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img src="dog.webp" alt="">
@@ -125,7 +155,7 @@
                 <source src="small-dog-barking-84707.mp3" type="audio/mpeg">
             </audio>
         </div>
-        
+
         <div id="d3">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img src="hamster.webp" alt="">
@@ -135,21 +165,21 @@
                 excepturi omnis? Ex, qui sit tempore vitae illo, quas officiis consectetur suscipit dolorem magni
                 commodi, nemo in.</p>
             <br><br>
-        
+
             <audio controls>
                 <source src="PUQD9WY-small-hamster-voice-2.mp3" type="audio/mpeg">
             </audio>
         </div>
 
     </main>
-        <footer style="background-color: blueviolet;width:100%; height:120px;text-align: center;">
-            <br>
-            <h3>About Us</h3>
-        
-            <p>©Copyright 2050 by nobody. All rights reversed.</p>
-        
-        
-        </footer>
+    <footer style="background-color: blueviolet;width:100%; height:120px;text-align: center;">
+        <br>
+        <h3>About Us</h3>
+
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+
+
+    </footer>
 </body>
 
 </html>
